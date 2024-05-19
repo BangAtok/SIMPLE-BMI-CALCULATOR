@@ -1,0 +1,6 @@
+height = input("Input your height in meter : ")
+weight = input("Input your weight : ")
+new_height = float(height)
+new_weight = int(weight)
+last_sum = new_weight/(new_height*new_height)
+print(last_sum)
